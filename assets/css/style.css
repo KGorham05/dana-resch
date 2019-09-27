@@ -1,3 +1,18 @@
 body {
     background: url("../images/headshot.jpg") no-repeat top center black;
 }
+
+
+/* .flex {
+    display: flex;    
+} */
+
+#name {
+    font-family: 'EB Garamond', serif;
+    font-size: 96px;
+    color: #fff;
+    height: 5000px;
+    text-justify: center;
+    text-shadow: 2px 2px 2px rgb(150, 150, 150);
+    letter-spacing: .6em;
+}
