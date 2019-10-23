@@ -1,3 +1,4 @@
+
 .main-bg {
     background: url("../images/headshot.jpg") no-repeat top center black fixed;
 }
@@ -25,9 +26,19 @@
     background: rgb(150, 150, 150, .5)
 }
 
+.nav {
+    background: rgba(243, 242, 242, 0.1);
+    opacity: 0;
+    transition:0s;
+    /* transition-duration: 180s; */
+}
+
+.nav-sib:hover + .nav { opacity: 1; }
+
 .nav-link {
     color: white;
-    font-size: 24px;
+    font-size: 28px;
     margin-left: 15px;
     margin-right: 15px;
+    text-shadow: 1px 1px 1px rgb(150, 150, 150);
 }
