@@ -1,7 +1,6 @@
-body {
-    background: url("../images/headshot.jpg") no-repeat top center black;
+.main-bg {
+    background: url("../images/headshot.jpg") no-repeat top center black fixed;
 }
-
 
 /* .flex {
     display: flex;    
@@ -9,10 +8,19 @@ body {
 
 #name {
     font-family: 'EB Garamond', serif;
+    /* font-family: montserrat; */
     font-size: 96px;
     color: #fff;
-    height: 5000px;
     text-justify: center;
     text-shadow: 2px 2px 2px rgb(150, 150, 150);
     letter-spacing: .6em;
+    margin-left: 118px;
+}
+
+.landing, .media {
+    height: 100vh;
+}
+
+.media {
+    background: rgb(150, 150, 150, .5)
 }
