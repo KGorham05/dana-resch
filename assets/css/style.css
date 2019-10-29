@@ -15,7 +15,7 @@
 }
 
 .full-height {
-    height: 105vh
+    height: 120vh
 }
 
 .music {
@@ -46,3 +46,16 @@
 .contact {
     background: rgba(253, 255, 143, 0.5)
 }
+
+.section-heading {
+    margin-top: 120px;
+}
+
+.mailing-list-text {
+    width: 100%;
+}
+
+.email-input, .submit-email {
+    width: 560px;
+}
+
