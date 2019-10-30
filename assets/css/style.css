@@ -14,6 +14,10 @@
     margin-left: 118px;
 }
 
+.container-fluid{
+    overflow: hidden;
+}
+    
 .uppercase {
     text-transform: uppercase;
 }
@@ -96,7 +100,3 @@
 .contact {
     background: rgba(253, 255, 143, 0.5)
 }
-
-
-
-
