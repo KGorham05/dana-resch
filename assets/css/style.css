@@ -115,7 +115,8 @@ form input, .input-message-text {
     padding-left: 5px;
     padding-top: 3px;
     padding-bottom: 3px;
-    border: 1px solid white
+    border: 1px solid white;
+    color: gold;
 }
 
 form input::placeholder, .input-message-text::placeholder {
