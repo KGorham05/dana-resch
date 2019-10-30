@@ -18,10 +18,6 @@
     height: 120vh
 }
 
-.music {
-    background: rgb(150, 150, 150, .5)
-}
-
 .nav {
     background: rgba(243, 242, 242, 0.1);
     opacity: 1;
@@ -39,10 +35,23 @@
     text-shadow: 1px 1px 1px rgb(150, 150, 150);
 }
 
+/* Music Div */
+.music {
+    background: rgb(150, 150, 150, .5);
+    color: white;
+}
+
+.accent_line {
+    color: gold;
+}
+
+
+/* About Div */
 .about {
     background: rgba(41, 41, 41, 0.5)
 }
 
+/* Contact Div */
 .contact {
     background: rgba(253, 255, 143, 0.5)
 }
