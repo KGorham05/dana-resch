@@ -14,8 +14,20 @@
     margin-left: 118px;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+.gold {
+    color: gold;
+}
+
 .full-height {
     height: 120vh
+}
+
+.section-heading {
+    margin-top: 120px;
 }
 
 .nav {
@@ -39,12 +51,41 @@
 .music {
     background: rgb(150, 150, 150, .5);
     color: white;
+    
 }
 
 .accent_line {
     color: gold;
 }
 
+
+.mailing-list-text {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.email-input {
+    width: 560px;
+    background: black;
+    color: gold;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+
+.email-input::placeholder {
+    color: gold;
+}
+
+.submit-email {
+    width: 560px;
+    margin-bottom: 10px;
+    color: grey;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 50px;
+}
 
 /* About Div */
 .about {
@@ -56,17 +97,6 @@
     background: rgba(253, 255, 143, 0.5)
 }
 
-.section-heading {
-    margin-top: 120px;
-}
 
-.mailing-list-text {
-    width: 100%;
-    margin-top: 50px;
-}
 
-.email-input, .submit-email {
-    width: 560px;
-    margin-bottom: 10px;
-}
 
