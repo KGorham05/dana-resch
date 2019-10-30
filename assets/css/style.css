@@ -30,6 +30,9 @@
     height: 120vh
 }
 
+.indent {
+    text-indent: 40px;
+}
 .section-heading {
     margin-top: 120px;
 }
@@ -52,7 +55,7 @@
 }
 
 /* Music Div */
-.music {
+#music, #contact {
     background: rgb(150, 150, 150, .5);
     color: white;
     
@@ -60,6 +63,7 @@
 
 .accent_line {
     color: gold;
+    margin-bottom: 50px;
 }
 
 
@@ -93,10 +97,15 @@
 
 /* About Div */
 .about {
-    background: rgba(41, 41, 41, 0.5)
+    background: rgba(41, 41, 41, 0.5);
+    color: white;
+}
+
+.about-img {
+    height: 500px;
 }
 
 /* Contact Div */
-.contact {
+/* .contact {
     background: rgba(253, 255, 143, 0.5)
-}
+} */
